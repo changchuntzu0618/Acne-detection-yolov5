@@ -1,4 +1,4 @@
-# Acne-detection-yolov5-
+# Acne-detection-yolov5
 This model "best.pt" is an acne detection model trained with yolov5 and publicly avaliable dataset "ACNE-04" [1].
 
 Please refer to yolov5 page for the code:  https://github.com/ultralytics/yolov5
