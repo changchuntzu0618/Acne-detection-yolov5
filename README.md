@@ -1,5 +1,5 @@
 # Acne-detection-yolov5-
-This model "best.pt" is an acne detection model trained with yolov5 and publicly avaliable dataset "ACNE-04".
+This model "best.pt" is an acne detection model trained with yolov5 and publicly avaliable dataset "ACNE-04" [1].
 
 Please refer to yolov5 page for the code:  https://github.com/ultralytics/yolov5
 
@@ -32,6 +32,9 @@ defines the path of the model which we want to run our detector with.
 the thresholding objectness confidence.
                 
 ##--name flag:
+
 defines where the detections are stored. if we set this flag to yolo_acne_det; therefore, the detections would be stored in runs/detect/yolo_acne_det/
 
 The model achieves a satisfactory performance with mAP@.5 value of 38.5.
+
+[1] X. Wu et al., Joint Acne Image Grading and Counting via Label Distribution Learning, 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 10641-10650, doi: 10.1109/ICCV.2019.01074.
